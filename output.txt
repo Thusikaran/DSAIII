@@ -1,0 +1,37 @@
+Test cases and outputs
+
+# Test case 01
+
+Enter the pattern: rat | pig
+Enter the string: rat and pig
+
+# Output
+
+{'rat ': [0], ' pig': [7]}
+
+# Test case 02
+
+Enter the pattern: \rat\b  
+Enter the string: rat and pig
+
+# Output
+
+[0]
+
+# Test case 03
+
+Enter the pattern: ^rat 
+Enter the string: rat and pig
+
+# Output
+
+True
+
+# Test case 04
+
+Enter the pattern: pig$  
+Enter the string: rat and pig
+
+# Output
+
+True
